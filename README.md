@@ -11,3 +11,9 @@
 5. Добавлено переключение выбора товара. При нажатии происходит переадресация на указанные url
 
 Вся разработка заняла ~4:30 минут
+
+![image](https://github.com/waldymarxthf/bp-mobile/assets/56730796/a041193a-a6c2-4cb1-ba16-993612ca03c2)
+
+![image](https://github.com/waldymarxthf/bp-mobile/assets/56730796/6d6c6642-728b-4090-9dd3-ffa66fe10c4f)
+
+![image](https://github.com/waldymarxthf/bp-mobile/assets/56730796/1ba2ff3f-d1fc-4a60-93e3-f6bdd8c9d34d)
