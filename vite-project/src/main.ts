@@ -46,7 +46,6 @@ function replacePlaceholders(template: string, variables: { [key: string]: strin
 
 async function fetchTranslations(lang: string) {
   try {
-    // in dev u need to use /src/i18n/${lang}.json
     const response = await fetch(`/i18n/${lang}.json`);
     if (!response.ok) {
       throw new Error(`Failed to fetch translations: ${response.status}`);
