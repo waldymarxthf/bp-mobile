@@ -4,6 +4,10 @@ const title = document.querySelector(".app-title") as HTMLHeadingElement;
 const linkElement = document.querySelector(".app-links") as HTMLDivElement
 const supportedLanguages = ['de', 'en', 'es', 'fr', 'ja', 'pt'];
 
+let vh = window.innerHeight * 0.01;
+
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
 offerContainer.addEventListener('click', function(event: Event) {
   const target = (event.target as HTMLElement).closest('.app-offer__item');
 
