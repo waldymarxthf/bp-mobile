@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta
+			name="apple-mobile-web-app-status-bar-style"
+			content="black-translucent"
+		/>
+		<link rel="stylesheet" href="./src/css/reset.css" />
+		<link rel="stylesheet" href="./src/css/style.css" />
+		<title>Vite + TS</title>
+	</head>
+	<body>
+		<div class="app" id="app">
+			<div class="container">
+				<button class="close-btn" aria-label="close-btn">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="14"
+						height="14"
+						viewBox="0 0 14 14"
+						fill="none"
+					>
+						<path
+							fill-rule="evenodd"
+							clip-rule="evenodd"
+							d="M7.01053 6.59968L12.4165 1.19368L12.8144 1.59155L7.4084 6.99754L13 12.5892L12.5892 13L6.99754 7.4084L1.59155 12.8144L1.19368 12.4165L6.59968 7.01053L1 1.41085L1.41085 1L7.01053 6.59968Z"
+							stroke="white"
+							stroke-opacity="0.4"
+							stroke-linejoin="round"
+						/>
+					</svg>
+				</button>
+				<h1 class="app-title" data-translate="Get Unlimited <br>Access">Get Unlimited Access</h1>
+				<div class="app-collection">
+					<div class="app-collection__item">
+						<img
+							srcset="
+								./src/assets/f1.png    1x,
+								./src/assets/f1@2x.png 2x,
+								./src/assets/f1@3x.png 3x
+							"
+							src="./src/assets/f1.png"
+							alt="collection"
+							class="app-collection__item-img"
+						/>
+						<p class="app-collection__item-desc" data-translate="Unlimited Art <br>Creation">Unlimited Art Creation</p>
+					</div>
+					<div class="app-collection__item">
+						<img
+							srcset="
+								./src/assets/f2.png    1x,
+								./src/assets/f2@2x.png 2x,
+								./src/assets/f2@3x.png 3x
+							"
+							src="./src/assets/collection-2-1x.png"
+							alt="collection"
+							class="app-collection__item-img"
+						/>
+						<p class="app-collection__item-desc" data-translate="Exclusive <br>Styles">Exclusive Styles</p>
+					</div>
+					<div class="app-collection__item">
+						<img
+							srcset="
+								./src/assets/f3.png    1x,
+								./src/assets/f3@2x.png 2x,
+								./src/assets/f3@3x.png 3x
+							"
+							src="./src/assets/collection-3-1x.png"
+							alt="collection"
+							class="app-collection__item-img"
+						/>
+						<p class="app-collection__item-desc" data-translate="Magic Avatars <br>With 20% Off">Magic Avatars With 20% Off</p>
+					</div>
+				</div>
+				<div class="app-offer">
+					<div class="app-offer__item active" data-url="https://apple.com/">
+						<span class="app-offer__item-best" data-translate="BEST OFFER">best offer</span>
+						<div class="app-offer__item-access">
+							<h2 class="app-offer__item-access-title" data-translate="YEARLY ACCESS">yearly access</h2>
+							<p class="app-offer__item-access-desc" data-translate="Just {{price}} per year" data-price="$39.99">Just $39.99 per year</p>
+						</div>
+						<div class="app-offer__item-price" data-translate="{{price}} <br>per week" data-price="$0.48">$0.48 per week</div>
+					</div>
+					<div class="app-offer__item" data-url="https://google.com/">
+						<div class="app-offer__item-access">
+							<h2 class="app-offer__item-access-title" data-translate="WEEKLY ACCESS">Weekly access</h2>
+						</div>
+						<div class="app-offer__item-price" data-translate="{{price}} <br>per week" data-price="$6.99">$6.99 per week</div>
+					</div>
+				</div>
+        <button class="app-continue" data-translate="Continue">Continue</button>
+        <div class="app-links">
+          <a href="#" class="app-links__item" data-translate="Terms of Use">Terms of Use</a>
+          <a href="#" class="app-links__item" data-translate="Privacy Policy">Privacy Policy</a>
+          <a href="#" class="app-links__item" data-translate="Restore">Restore</a>
+        </div>
+			</div>
+		</div>
+		<script type="module" src="/src/main.ts"></script>
+	</body>
+</html>
